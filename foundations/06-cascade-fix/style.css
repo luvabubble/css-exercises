@@ -1,4 +1,5 @@
 /*Paragraph group*/
+/*The order of these selectors is important*/
 .para,
 .small-para {
   color: hsl(0, 0%, 0%);
@@ -15,6 +16,7 @@
 }
 
 /*Button group*/
+/*The order of these selectors is important*/
 .button {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
@@ -34,7 +36,7 @@ div.text {
   font-weight: 100;
 }
 
-.child {
+.text.child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
