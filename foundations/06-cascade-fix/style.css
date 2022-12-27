@@ -1,8 +1,6 @@
 /*Paragraph group*/
-/*The order of these selectors is important*/
-.para,
-.small-para {
-  color: hsl(0, 0%, 0%);
+.para.small-para {
+  font-size: 14px;
   font-weight: 800;
 }
 
@@ -10,23 +8,22 @@
   font-size: 22px;
 }
 
-.small-para {
-  font-size: 14px;
+.para {
+  color: hsl(0, 0%, 0%);
   font-weight: 800;
 }
 
 /*Button group*/
-/*The order of these selectors is important*/
+#confirm-button {
+  background: green;
+  color: white;
+  font-weight: bold;
+}
+
 .button {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
-}
-
-.confirm {
-  background: green;
-  color: white;
-  font-weight: bold;
 }
 
 /*Nesting group*/
