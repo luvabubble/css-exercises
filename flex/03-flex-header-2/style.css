@@ -11,6 +11,7 @@ body {
 .header {
   /* --------edited content-------- */
   display: flex;
+  justify-content: space-between;
   /* ------------------------------ */
   background: white;
   border-bottom: 1px solid #ddd;
@@ -18,8 +19,13 @@ body {
 }
 
 /* --------edited content-------- */
+.left-aligned, .right-aligned{
+  display: flex;
+}
+
 .links {
   display: flex;
+
 }
 /* ------------------------------ */
 
