@@ -21,6 +21,7 @@ ul {
   /* --------edited content-------- */
   display: flex;
   padding: 0;
+  gap: 16px;
   /* ------------------------------ */
   /* this removes the dots on the list items*/
   list-style-type: none;
