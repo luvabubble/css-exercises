@@ -12,6 +12,7 @@ body {
   /* --------edited content-------- */
   display: flex;
   justify-content: space-between;
+  padding: 8px;
   /* ------------------------------ */
   background: white;
   border-bottom: 1px solid #ddd;
@@ -21,11 +22,14 @@ body {
 /* --------edited content-------- */
 .left-aligned, .right-aligned{
   display: flex;
+  align-items: center;
+  gap: 16px;
 }
 
 .links {
   display: flex;
-
+  padding: 0;
+  gap: 16px;
 }
 /* ------------------------------ */
 
