@@ -25,6 +25,7 @@ body {
 
 .top {
   display: flex;
+  justify-content: space-between;
 }
 
 .icon {
@@ -38,6 +39,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
 }
 
 .close-button {
