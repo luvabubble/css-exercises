@@ -8,10 +8,12 @@ body {
 .title {
   font-size: 36px;
   font-weight: 900;
+  margin-bottom: 32px;
 }
 
 .plant-list {
   display: flex;
+  gap: 52px
 }
 
 .plant-card {
