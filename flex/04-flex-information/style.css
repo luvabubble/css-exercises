@@ -5,14 +5,22 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 
-img {
-  width: 100px;
-  height: 100px;
-}
-
 .title {
   font-size: 36px;
   font-weight: 900;
+}
+
+.plant-list {
+  display: flex;
+}
+
+.plant-card {
+  width: 200px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
 }
 
 /* do not edit this footer */
